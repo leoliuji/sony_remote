@@ -1,0 +1,33 @@
+
+T2AF4 000:408 SEGGER J-Link V4.98e Log File (0001ms, 0271ms total)
+T2AF4 000:408 DLL Compiled: May  5 2015 11:00:52 (0001ms, 0271ms total)
+T2AF4 000:408 Logging started @ 2020-05-04 10:32 (0001ms, 0271ms total)
+T2AF4 000:409 JLINK_SetWarnOutHandler(...) (0000ms, 0271ms total)
+T2AF4 000:409 JLINK_OpenEx(...)
+Firmware: J-Link V9 compiled Dec 16 2016 15:34:10
+Hardware: V9.20
+Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash, RDDI  returns O.K. (0269ms, 0540ms total)
+T2AF4 000:678 JLINK_SetErrorOutHandler(...) (0000ms, 0540ms total)
+T2AF4 000:678 JLINK_ExecCommand("ProjectFile = "E:\Program\sonyprotocolTx\sony_remote20200504\MDK-ARM\JLinkSettings.ini"", ...)Device "UNSPECIFIED" selected.  returns 0x00 (0000ms, 0540ms total)
+T2AF4 000:678 JLINK_ExecCommand("Device = STM32F405RGTx", ...)Device "UNSPECIFIED" selected.  returns 0x00 (0000ms, 0540ms total)
+T2AF4 000:678 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x01 (0000ms, 0540ms total)
+T2AF4 000:678 JLINK_GetHardwareVersion()  returns 0x16760 (0000ms, 0540ms total)
+T2AF4 000:678 JLINK_GetDLLVersion()  returns 49805 (0000ms, 0540ms total)
+T2AF4 000:678 JLINK_GetFirmwareString(...) (0000ms, 0540ms total)
+T2AF4 000:678 JLINK_GetDLLVersion()  returns 49805 (0000ms, 0540ms total)
+T2AF4 000:678 JLINK_GetCompileDateTime() (0000ms, 0540ms total)
+T2AF4 000:678 JLINK_GetFirmwareString(...) (0000ms, 0540ms total)
+T2AF4 000:678 JLINK_GetHardwareVersion()  returns 0x16760 (0000ms, 0540ms total)
+T2AF4 000:678 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0004ms, 0544ms total)
+T2AF4 000:682 JLINK_SetSpeed(1000) (0001ms, 0545ms total)
+T2AF4 000:683 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 0545ms total)
+T2AF4 000:683 JLINK_Reset() >0x108 TIF>Found SWD-DP with ID 0x2BA01477 >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF>
+ >0x21 TIF>Found Cortex-M4 r0p1, Little endian. -- CPU_WriteMem(4 bytes @ 0xE0002000) -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE0002000)FPUnit: 6 code (BP) slots and 2 literal slots -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000) -- CPU_ReadMem(4 bytes @ 0xE000ED88) -- CPU_WriteMem(4 bytes @ 0xE000ED88) -- CPU_ReadMem(4 bytes @ 0xE000ED88) -- CPU_WriteMem(4 bytes @ 0xE000ED88)CoreSight components:ROMTbl 0 @ E00FF000
+ -- CPU_ReadMem(16 bytes @ 0xE00FF000) -- CPU_ReadMem(16 bytes @ 0xE000EFF0) -- CPU_ReadMem(16 bytes @ 0xE000EFE0)ROMTbl 0 [0]: FFF0F000, CID: B105E00D, PID: 000BB00C SCS -- CPU_ReadMem(16 bytes @ 0xE0001FF0) -- CPU_ReadMem(16 bytes @ 0xE0001FE0)ROMTbl 0 [1]: FFF02000, CID: B105E00D, PID: 003BB002 DWT -- CPU_ReadMem(16 bytes @ 0xE0002FF0) -- CPU_ReadMem(16 bytes @ 0xE0002FE0)ROMTbl 0 [2]: FFF03000, CID: B105E00D, PID: 002BB003 FPB -- CPU_ReadMem(16 bytes @ 0xE0000FF0)
+ -- CPU_ReadMem(16 bytes @ 0xE0000FE0)ROMTbl 0 [3]: FFF01000, CID: B105E00D, PID: 003BB001 ITM -- CPU_ReadMem(16 bytes @ 0xE00FF010) -- CPU_ReadMem(16 bytes @ 0xE0040FF0) -- CPU_ReadMem(16 bytes @ 0xE0040FE0)ROMTbl 0 [4]: FFF41000, CID: B105900D, PID: 000BB9A1 TPIU -- CPU_ReadMem(16 bytes @ 0xE0041FF0) -- CPU_ReadMem(16 bytes @ 0xE0041FE0)ROMTbl 0 [5]: FFF42000, CID: B105900D, PID: 000BB925 ETM -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+ >0x35 TIF> -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE0002000) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) (0099ms, 0644ms total)
+T2AF4 000:782 JLINK_GetId() >0x0D TIF> >0x21 TIF>  returns 0x2BA01477 (0002ms, 0646ms total)
+T2AF4 000:786 JLINK_GetFirmwareString(...) (0000ms, 0646ms total)
+T2AF4 002:615 JLINK_Close() -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001004) >0x42 TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> (0009ms, 0655ms total)
+T2AF4 002:615  (0009ms, 0655ms total)
+T2AF4 002:615 Closed (0009ms, 0655ms total)

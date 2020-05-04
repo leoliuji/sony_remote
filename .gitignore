@@ -1,0 +1,9 @@
+*.o
+*.a
+*.html
+*.htm
+*.crf
+*.d
+*.hex
+*.axf
+Drivers/*
